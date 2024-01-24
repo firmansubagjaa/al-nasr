@@ -1,4 +1,10 @@
-interface SponsorLogo {
+import sponsor1 from '@/assets/images/webp/image 4.webp'
+import sponsor2 from '@/assets/images/webp/image 5.webp'
+import sponsor3 from '@/assets/images/webp/image 6.webp'
+import sponsor4 from '@/assets/images/webp/image 7.webp'
+import sponsor5 from '@/assets/images/webp/image 8.webp'
+
+export interface SponsorLogo {
   id: number
   link: string
 }
@@ -6,23 +12,23 @@ interface SponsorLogo {
 const sponsorLogo: SponsorLogo[] = [
   {
     id: 1,
-    link: '/src/assets/images/webp/image 4.webp'
+    link: sponsor1
   },
   {
     id: 2,
-    link: '/src/assets/images/webp/image 5.webp'
+    link: sponsor2
   },
   {
     id: 3,
-    link: '/src/assets/images/webp/image 6.webp'
+    link: sponsor3
   },
   {
     id: 4,
-    link: '/src/assets/images/webp/image 7.webp'
+    link: sponsor4
   },
   {
     id: 5,
-    link: '/src/assets/images/webp/image 8.webp'
+    link: sponsor5
   }
 ]
 

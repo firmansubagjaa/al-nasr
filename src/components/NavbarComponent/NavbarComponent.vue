@@ -1,8 +1,12 @@
+<script lang="ts" setup>
+import logoImg from '@/assets/images/webp/Logo.webp'
+</script>
+
 <template>
   <header class="bg-white fixed w-full top-0 z-[2]">
     <div class="container flex justify-between items-center py-5">
       <div>
-        <img src="/src/assets/images/webp/logo.webp" alt="logo" class="w-32" />
+        <img :src="logoImg" alt="logo" class="w-32" />
       </div>
       <data-item class="hidden lg:flex">
         <li v-for="item in items" :key="item.id">{{ item.title }}</li>
